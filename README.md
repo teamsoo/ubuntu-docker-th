@@ -19,6 +19,6 @@ Config:
 $ docker build -t ubuntu_th ./16.04/
 $ docker run -d -p 2222:22 -P --name test_th_ubuntu ubuntu_th
 $ ssh root@localhost -p 2222
-# The password is `root`
+# The password is `teamsoo`
 root@test_ubuntu $
 ```
